@@ -1,8 +1,8 @@
-@import url(font/super_mario_bros/SuperMarioBros..ttf);
+@import url(font/super_mario_bros/SuperMarioWorld.ttf);
 
 @font-face {
   font-family: "Super Mario World";
-  src: url(font/super_mario_bros/SuperMarioBros..ttf) format('truetype');
+  src: url(font/super_mario_bros/SuperMarioWorld.ttf) format('truetype');
 }
 
 * {
