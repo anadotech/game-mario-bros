@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="font/super_mario_bros/SuperMarioBros..ttf">
+  <link rel="icon" href="img/coin.gif" type="image/gif">
+
+</head>
+<body>
+  <div class="game">
+    <img class="mario" src="img/mario.gif" alt="mario">
+    <img class="pipe" src="img/pipe.png" alt="pipe">
+    <img class="clouds" src="img/clouds.png" alt="clouds">
+    <img class="coin" src="img/coin.gif">
+    <div class="score">Pontos: 0</div>
+    <div class="high-score">Recorde: 0</div>
+    <button class="start" onclick="startGame()">Iniciar</button>
+  </div>
+
+  <div class="game-over">
+    <img id="img-game-over" src="img/game-over1.gif" alt="img-game-over">
+    <button onclick="restartGame()">Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
